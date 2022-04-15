@@ -57,7 +57,6 @@ export default {
       } catch (error) {
         console.log("fetch beer error", error);
       } finally {
-        console.log(this.isLoading);
         this.isLoading = false;
       }
     },

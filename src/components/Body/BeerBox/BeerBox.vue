@@ -2,7 +2,7 @@
   <div class="beer-box">
     <div class="main-info">
       <p class="loading" v-if="isLoading">
-        Wait a minute, i'm will pour you a masterpiece
+        Wait a minute, i'll pour you a masterpiece
       </p>
       <div class="main-props" v-else>
         <p>brand: {{ beerData.brand }}</p>
